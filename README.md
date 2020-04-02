@@ -11,7 +11,7 @@
 ##### 二、DOWNLOAD
 
 ```
-	git clone git@github.com:liylin6688/hello.git
+    git clone git@github.com:liylin6688/hello.git
 OR
     git init
     git remote add origin git@github.com:liylin6688/hello.git
