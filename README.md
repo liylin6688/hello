@@ -1,4 +1,4 @@
-##### 一、COMMIT
+##### 1、COMMIT
 
 ```
     git init 
@@ -8,7 +8,7 @@
     git push -u origin master
 ```
 
-##### 二、DOWNLOAD
+##### 2、DOWNLOAD
 
 ```
     git clone git@github.com:liylin6688/hello.git
@@ -18,7 +18,7 @@ OR
     git pull origin master
 ```
 
-##### 三、ERROR PROCESSING
+##### 3、ERROR PROCESSING
 
 ```
     fatal: refusing to merge unrelated histories
@@ -36,7 +36,7 @@ SOLVE：
 
 ```
     ! [rejected]        master -> master (fetch first)
-    error: failed to push some refs to 'git@github.com:liylin6688/second.git'
+    error: failed to push some refs to 'git@github.com:liylin6688/hello.git'
 SOLVE：
     git fetch origin master
     git merge origin master
@@ -47,3 +47,13 @@ OR
     :wq
     git push origin master
 ```
+
+##### 4、ACCOUNT
+
+```
+    git config --global user.name "liylin6688"
+    git config --global user.email "liylin6688@qq.com
+
+    ssh-keygen -t rsa -C “liylin6688@qq.com”
+```
+
